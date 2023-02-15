@@ -1,0 +1,56 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+   background: url(./applicatio-bg.webp)no-repeat center center/cover;
+   text-align: center;
+}
+#form{
+    width: 30%;
+    padding: 30px;
+    /* border: 2px solid white; */
+   background-color: whitesmoke;
+   border-radius: 10px;
+}
+#form label{
+    margin-top: 10px;
+}
+#form #radio{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#form #btn{
+    background-color: rgb(79, 79, 253);
+    color: white;
+    margin-top: 20px;
+}
+#form #btn:hover{
+    background-color: blue;
+    transition: 1s;
+}
+button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
+ margin: 10px auto;
+ background-color: rgb(79, 79, 253);
+    color: white;
+}
+button:hover{
+    background-color: blue;
+    transition: 1s;
+}
+@media (max-width:576px) {
+    #form{
+        width: 90%;
+    }
+    button{
+        width: 90%;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;800&family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./application.css">
+</head>
+<body>
+    <form>
+        <h1>Application Form</h1>
+        <div id="form" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <label for="name">Name:</label><br>
+                        <input class="form-control" type="text" placeholder="Enter Name Here.." required><br>
+                        <label for="address">Address:</label><br>
+                        <input class="form-control" type="text" placeholder="Enter Address Here.." required><br>
+                        <label for="email">Email:</label><br>
+                        <input class="form-control" type="email" placeholder="Enter Email Here.." required><br>
+                        <label for="contact">Phone Number:</label><br>
+                        <input class="form-control" type="number" maxlength="10" placeholder="Enter 10 Digit Number.." required><br>
+                        <label for="gender">Gender:</label><br>
+                        <input type="radio" id="radio"  name="fav_language" value="HTML">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="radio"  name="fav_language" value="CSS">
+                        <label for="Female">Female</label>
+                        <input type="radio" id="radio"  name="fav_language" value="JavaScript">
+                        <label for="Custom">Custom</label>
+                        <label for="celander">Date of Proposed Outing:</label>
+                        <input class="form-control" type="week">
+                    <input class="form-control" id="btn" type="submit" value="Submit">
+                     
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <a href="/Calander.html"><button>Go to Next</button></a>
+</body>
+</html>
